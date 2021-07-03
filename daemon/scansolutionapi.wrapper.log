@@ -1,0 +1,32 @@
+2021-07-02 14:30:24 - Starting D:\Program Files\nodejs\node.exe  --harmony D:\Developer\ScanSolutionAPI\node_modules\node-windows\lib\wrapper.js --file D:\Developer\ScanSolutionAPI\index.js --scriptoptions= --log "ScanSolutionAPI wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-07-02 14:30:24 - Started 22636
+2021-07-02 14:31:07 - Stopping scansolutionapi.exe
+2021-07-02 14:31:07 - ProcessKill 22636
+2021-07-02 14:31:07 - Found child process: 25212 Name: conhost.exe
+2021-07-02 14:31:07 - Found child process: 23076 Name: node.exe
+2021-07-02 14:31:07 - Stopping process 25212
+2021-07-02 14:31:07 - Send SIGINT 25212
+2021-07-02 14:31:07 - SIGINT to 25212 failed - Killing as fallback
+2021-07-02 14:31:07 - Stopping process 23076
+2021-07-02 14:31:07 - Send SIGINT 23076
+2021-07-02 14:31:07 - SIGINT to 23076 failed - Killing as fallback
+2021-07-02 14:31:07 - Stopping process 22636
+2021-07-02 14:31:07 - Send SIGINT 22636
+2021-07-02 14:31:07 - SIGINT to 22636 failed - Killing as fallback
+2021-07-02 14:31:07 - Finished scansolutionapi.exe
+2021-07-02 14:31:18 - Starting D:\Program Files\nodejs\node.exe  --harmony D:\Developer\ScanSolutionAPI\node_modules\node-windows\lib\wrapper.js --file D:\Developer\ScanSolutionAPI\index.js --scriptoptions= --log "ScanSolutionAPI wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-07-02 14:31:18 - Started 24900
+2021-07-02 14:31:49 - Stopping scansolutionapi.exe
+2021-07-02 14:31:49 - ProcessKill 24900
+2021-07-02 14:31:49 - Found child process: 14956 Name: conhost.exe
+2021-07-02 14:31:49 - Found child process: 21648 Name: node.exe
+2021-07-02 14:31:49 - Stopping process 14956
+2021-07-02 14:31:49 - Send SIGINT 14956
+2021-07-02 14:31:49 - SIGINT to 14956 failed - Killing as fallback
+2021-07-02 14:31:49 - Stopping process 21648
+2021-07-02 14:31:49 - Send SIGINT 21648
+2021-07-02 14:31:49 - SIGINT to 21648 failed - Killing as fallback
+2021-07-02 14:31:49 - Stopping process 24900
+2021-07-02 14:31:49 - Send SIGINT 24900
+2021-07-02 14:31:49 - SIGINT to 24900 failed - Killing as fallback
+2021-07-02 14:31:49 - Finished scansolutionapi.exe
