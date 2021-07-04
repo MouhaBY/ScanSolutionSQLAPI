@@ -7,6 +7,6 @@ const auth = require('../middlewares/auth')
 router.get('/all', syncCtrl.getSyncs)
 router.post('/add', syncCtrl.add)
 router.get('/sync/:id', syncCtrl.getOneSync)
-router.delete('/sync/:key', syncCtrl.deleteSync)
+router.delete('/sync', syncCtrl.deleteSync)
 
 module.exports = router

@@ -74,7 +74,7 @@ exports.deleteUser = (req, res, next) => {
   
 exports.getAllUsers = async (req, res, next) => {
     try {
-        const result = await sql.query`select * from Accounts`
+        const result = await sql.query`select Accounts.Id, UserName, RoleId, ContactName from Accounts JOIN AccountRole ON Accounts.Id = AccountId JOIN Contacts ON Accounts.ContactId = Contacts.Id WHERE (Accounts.Active = 'True')`
         res.status(200).json({results : result.recordset})
     }
     catch (err) {

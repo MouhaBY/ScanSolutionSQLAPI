@@ -21,10 +21,14 @@ exports.getOneSync = (req, res, next) => {
     .catch((error) => { res.status(404).json({ error }) })
 }
 
-exports.deleteSync = (req, res, next) => {
-    Sync.deleteOne({key: req.params.key})
-    .then(() => { res.status(200).json({ message: 'Sync Deleted!' }) })
-    .catch((error) => { res.status(400).json({ error }) })
+exports.deleteSync = async (req, res, next) => {
+    try {
+        await sql.query`delete from Inv_Sync`
+        res.status(200)
+    }
+    catch (err) {
+        res.status(400)
+    }
 }
   
 exports.getSyncs = async (req, res, next) => {
